@@ -1,0 +1,9 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    10  100    10    0     0   1666      0 --:--:-- --:--:-- --:--:--  2000HTTP/1.1 404 Object Not Found
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 04 Jan 2022 21:17:00 GMT
+Content-Type: text/plain
+Content-Length: 10
+
+not found

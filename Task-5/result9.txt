@@ -1,0 +1,14 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    18  100    18    0     0   3000      0 --:--:-- --:--:-- --:--:--  3600HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvg/hPF8JEUpkzGNlSDLzvM2XBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s16682>; rel="up"
+Last-Modified: Tue, 04 Jan 2022 21:21:38 GMT
+ETag: "hfT3njbsiNrQMlurEDsij"
+Date: Tue, 04 Jan 2022 21:22:21 GMT
+Content-Type: application/json
+Content-Length: 18
+
+{"car": "Bentley"}

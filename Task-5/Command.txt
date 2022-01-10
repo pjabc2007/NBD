@@ -1,0 +1,23 @@
+1.  curl -i -X PUT -H "Content-Type: application/json" -d '{"vin": "ABCD1234", "car": "Mercedes S-class", "price": 500000, "isSold": false}' http://localhost:8098/buckets/s16682/keys/ABCD1234
+    curl -i -X PUT -H "Content-Type: application/json" -d '{"vin": "QWER7878", "car": "Alfa Romeo Giulia", "price": 250000, "isSold": true}' http://localhost:8098/buckets/s16682/keys/QWER7878
+    curl -i -X PUT -H "Content-Type: application/json" -d '{"vin": "DEDE4478", "car": "Porsche Cayman S", "price": 188000, "isSold": false}' http://localhost:8098/buckets/s16682/keys/DEDE4478
+    curl -i -X PUT -H "Content-Type: application/json" -d '{"vin": "ELON4202", "car": "Tesla Model S", "price": 320000, "isSold": false}' http://localhost:8098/buckets/s16682/keys/ELON4202
+    curl -i -X PUT -H "Content-Type: application/json" -d '{"vin": "HUSR2137", "car": "Polski Fiat 126p", "price": 2500, "isSold": true}' http://localhost:8098/buckets/s16682/keys/HUSR2137
+
+2.  curl -i -X GET http://localhost:8098/buckets/s16682/keys/QWER7878
+
+3.  curl -i -X PUT -H "Content-Type: application/json" -d '{"vin": "ELON4202", "car": "Tesla Model S", "price": 320000, "isSold": false, "isElectric": true}' http://localhost:8098/buckets/s16682/keys/ELON4202
+
+4.  curl -i -X PUT -H "Content-Type: application/json" -d '{"vin": "HUSR2137", "car": "Polski Fiat 126p", "isSold": true}' http://localhost:8098/buckets/s16682/keys/HUSR2137
+
+5.  curl -i -X PUT -H "Content-Type: application/json" -d '{"vin": "ABCD1234", "car": "Mercedes S-class", "price": 500000, "isSold": true}' http://localhost:8098/buckets/s16682/keys/ABCD1234
+
+6.  curl -i -X DELETE http://localhost:8098/buckets/s16682/keys/QWER7878
+
+7.  curl -i -X GET http://localhost:8098/buckets/s16682/keys/QWER7878
+
+8.  curl -i -X POST -H "Content-Type: application/json" -d '{"car": "Bentley"}' http://localhost:8098/buckets/s16682/keys
+
+9.  curl -i -X GET http://localhost:8098/buckets/s16682/keys/XqHOp0om4NctiPnn5kFClYj52Cs
+
+10. curl -i -X DELETE http://localhost:8098/buckets/s16682/keys/XqHOp0om4NctiPnn5kFClYj52Cs

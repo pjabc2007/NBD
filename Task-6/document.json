@@ -1,0 +1,6 @@
+{
+  "vin": "ABCD1234",
+  "car": "Mercedes S-class",
+  "price": 500000,
+  "isSold": false
+}

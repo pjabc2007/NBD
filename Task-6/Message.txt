@@ -1,0 +1,6 @@
+E:\RandomRepos\RandomPython\venv6\Scripts\python.exe E:/RandomRepos/RandomPython/main.py
+Dodano, a nastepnie pobrano dokument: {'vin': 'ABCD1234', 'car': 'Mercedes S-class', 'price': 500000, 'isSold': False}
+Zmodyfikowano, a nastepnie pobrano dokument: {'vin': 'ABCD1234', 'car': 'Mercedes S-class', 'price': 500000, 'isSold': True}
+Usunieto, a nastepnie sprobowano pobrac dokument: None
+
+Process finished with exit code 0

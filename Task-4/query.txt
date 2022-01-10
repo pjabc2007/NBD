@@ -1,0 +1,36 @@
+1.  MATCH shortestPaths = allShortestPaths((start:town {name: 'Darjeeling'})-[*]->(end:peak {name:'Sandakphu'})) RETURN shortestPaths
+2.  MATCH shortestPaths = allShortestPaths((start:town {name: 'Darjeeling'})-[*]->(end:peak {name:'Sandakphu'}))
+    WHERE ALL(path in relationships(shortestPaths) WHERE path.winter = 'true')
+    RETURN shortestPaths
+3.  MATCH paths = (start:town {name: 'Darjeeling'})-[*]->(end:peak {name:'Sandakphu'})
+    RETURN paths, REDUCE(s = 0, path IN relationships(paths) | s + path.distance) AS s
+    ORDER BY s
+3a. MATCH paths = (start:town {name: 'Darjeeling'})-[*]->(end)
+    WHERE ALL(path IN relationships(paths) WHERE TYPE(path) = 'twowheeler' AND path.summer = 'true')
+    RETURN paths
+4.  MATCH (airport:Airport)<-[origin:ORIGIN]-(flight:Flight)
+    RETURN airport, COUNT(origin) AS flightCount
+    ORDER BY flightCount
+5.  MATCH flights = (start:Airport { name:'LAX' })<-[:ORIGIN]-()-[:DESTINATION]->()<-[:ORIGIN]-()-[:DESTINATION]->()<-[:ORIGIN]-()-[:DESTINATION]->()<-[:ORIGIN]-()-[:DESTINATION]->(end:Airport)
+    WITH flights, REDUCE(price = 0, x IN [flight IN NODES(flights) WHERE 'Flight' IN LABELS(flight)] | price + [(x)<-[:ASSIGN]-(ticket) | ticket.price][0]) AS price
+    WHERE price < 3000 
+    RETURN flights, price
+6.  MATCH flights = (start:Airport { name:'LAX' })<-[:ORIGIN]-()-[:DESTINATION]->()<-[:ORIGIN]-()-[:DESTINATION]->()<-[:ORIGIN]-()-[:DESTINATION]->()<-[:ORIGIN]-()-[:DESTINATION]->(end:Airport {name: 'DAY'}) 
+    WITH flights, REDUCE(price = 0, x IN [flight IN NODES(flights) WHERE 'Flight' IN LABELS(flight)] | price + [(x)<-[:ASSIGN]-(ticket) | ticket.price][0]) AS price
+    RETURN flights, price
+    ORDER BY price
+7.  MATCH flights = (start:Airport { name:'LAX' })<-[:ORIGIN]-()-[:DESTINATION]->(end:Airport {name: 'DAY'}) 
+    WITH flights, REDUCE(price = 0, x IN [flight IN NODES(flights) WHERE 'Flight' IN LABELS(flight)] | price + [(x)<-[:ASSIGN]-(ticket) | ticket.price][0]) AS price
+    RETURN flights, price
+    ORDER BY price LIMIT 1
+8.  MATCH flights = (start:Airport { name:'LAX' })<-[:ORIGIN]-()-[:DESTINATION]->(end:Airport {name: 'DAY'}) 
+    WITH flights, REDUCE(price = 0, x IN [flight IN NODES(flights) WHERE 'Flight' IN LABELS(flight)] | price + [(x)<-[:ASSIGN]-(ticket {class: 'business'}) | ticket.price][0]) AS price
+    RETURN flights, price
+    ORDER BY price LIMIT 1
+9.  
+10. MATCH flights = (start:Airport)<-[:ORIGIN]-()-[:DESTINATION]->(mid:Airport)<-[:ORIGIN]-()-[:DESTINATION]->(end:Airport)
+    WHERE NOT(start=mid) AND NOT(start=end) AND NOT(mid=end)
+    WITH flights, REDUCE(price = 0, x IN [flight IN NODES(flights) WHERE 'Flight' IN LABELS(flight)] | price + [(x)<-[:ASSIGN]-(ticket {class: 'business'}) | ticket.price][0]) AS price
+    RETURN flights, price
+    ORDER BY price LIMIT 1
+

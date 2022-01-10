@@ -1,0 +1,232 @@
+﻿[
+  {
+    "movie": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "This Nation Was Founded On One Principle Above All Else…",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "people": {
+"identity": 258,
+"start": 177,
+"end": 171,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Johann Schmidt"
+        ]
+      }
+    },
+    "person": {
+"identity": 177,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1960,
+"name": "Hugo Weaving"
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "This Nation Was Founded On One Principle Above All Else…",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "people": {
+"identity": 255,
+"start": 174,
+"end": 171,
+"type": "WROTE",
+"properties": {
+
+      }
+    },
+    "person": {
+"identity": 174,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1969,
+"name": "Stephen McFeely"
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "This Nation Was Founded On One Principle Above All Else…",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "people": {
+"identity": 256,
+"start": 175,
+"end": 171,
+"type": "WROTE",
+"properties": {
+
+      }
+    },
+    "person": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1913,
+"name": "Joe Simon"
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "This Nation Was Founded On One Principle Above All Else…",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "people": {
+"identity": 254,
+"start": 173,
+"end": 171,
+"type": "WROTE",
+"properties": {
+
+      }
+    },
+    "person": {
+"identity": 173,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1970,
+"name": "Christopher Markus"
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "This Nation Was Founded On One Principle Above All Else…",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "people": {
+"identity": 253,
+"start": 172,
+"end": 171,
+"type": "DIRECTED",
+"properties": {
+
+      }
+    },
+    "person": {
+"identity": 172,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1950,
+"name": "Joe Johnston"
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "This Nation Was Founded On One Principle Above All Else…",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "people": {
+"identity": 257,
+"start": 176,
+"end": 171,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Captain America"
+        ]
+      }
+    },
+    "person": {
+"identity": 176,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1981,
+"name": "Chris Evans"
+      }
+    }
+  },
+  {
+    "movie": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "This Nation Was Founded On One Principle Above All Else…",
+"title": "Captain America: The First Avenger",
+"released": 2011
+      }
+    },
+    "people": {
+"identity": 259,
+"start": 178,
+"end": 171,
+"type": "ACTED_IN",
+"properties": {
+"roles": [
+          "Nick Fury"
+        ]
+      }
+    },
+    "person": {
+"identity": 178,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"born": 1948,
+"name": "Samuel L. Jackson"
+      }
+    }
+  }
+]

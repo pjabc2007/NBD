@@ -1,0 +1,14 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    79  100    79    0     0  13166      0 --:--:-- --:--:-- --:--:-- 13166HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvg/hsH4AEUpkymNl+KbveZsvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s16682>; rel="up"
+Last-Modified: Tue, 04 Jan 2022 20:54:14 GMT
+ETag: "14nGtoQoMLBYnyHYJ4EK53"
+Date: Tue, 04 Jan 2022 21:00:21 GMT
+Content-Type: application/json
+Content-Length: 79
+
+{"vin": "QWER7878", "car": "Alfa Romeo Giulia", "price": 250000, "isSold": true}

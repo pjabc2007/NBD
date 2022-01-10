@@ -1,0 +1,48 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    79    0     0  100    79      0  11285 --:--:-- --:--:-- --:--:-- 11285HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 04 Jan 2022 20:53:37 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    79    0     0  100    79      0  11285 --:--:-- --:--:-- --:--:-- 13166HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 04 Jan 2022 20:54:14 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    79    0     0  100    79      0   2925 --:--:-- --:--:-- --:--:--  3038HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 04 Jan 2022 20:54:53 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    76    0     0  100    76      0   2533 --:--:-- --:--:-- --:--:--  2620HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 04 Jan 2022 20:55:51 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    76    0     0  100    76      0   2714 --:--:-- --:--:-- --:--:--  2814HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 04 Jan 2022 20:57:02 GMT
+Content-Type: application/json
+Content-Length: 0
