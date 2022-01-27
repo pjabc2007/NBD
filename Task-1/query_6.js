@@ -1,27 +1,27 @@
 printjson(db.people.insertOne(
     {
         "sex":"Male",
-        "first_name":"Przemyslaw",
-        "last_name":"Maciejewski",
-        "job":"Software Developer",
-        "email":"s16682@pjwstk.edu.pl",
+        "first_name":"Prashant",
+        "last_name":"Jha",
+        "job":"Software Engineerr",
+        "email":"s21428@pjwstk.edu.pl",
         "location":{
             "city":"Warszawa",
             "address":{
-                "streetname":"Ulicowa",
-                "streetnumber":"166"}
+                "streetname":"Sluzby",
+                "streetnumber":"1"}
             },
-        "description":"Ma nadzieje, ze zda NBD",
-        "height":"165.5",
-        "weight":"68.5",
-        "birth_date":"1998-10-11T00:00:00Z",
-        "nationality":"Poland",
+        "description":"NBD",
+        "height":"169.5",
+        "weight":"82.5",
+        "birth_date":"1991-10-20T00:00:00Z",
+        "nationality":"India",
         "credit":[
             {
-                "type":"mastercard",
-                "number":"201769457561818",
-                "currency":"PLN",
-                "balance":"123456.82"
+                "type":"visa",
+                "number":"76457457573763",
+                "currency":"USD",
+                "balance":"1435432"
             }
         ]
     }
